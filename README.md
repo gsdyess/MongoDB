@@ -47,8 +47,8 @@ Resources:
 
 Run on node:
 
-    Git clone from https://github.com/gsdyess/Apache-Tomcat.git
+    Git clone from https://github.com/gsdyess/mongodb.git
 
-    Create cookbook: $ sudo chef-client --local-mode --runlist 'recipe[apache_http]’
+    Create cookbook: $ sudo chef-client --local-mode --runlist 'recipe[mongo]’
 
-    Run: $. curl local host
+    test by typing mongo at the prompt
